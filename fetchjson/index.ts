@@ -12,11 +12,11 @@ interface Todo {
 axios.get(url).then(response => {
 
 
-  const todo = response.data as Todo;
+  const wedo = response.data as Todo;
 
-    const ID = todo.id;
-    const title = todo.title;
-    const completed = todo.completed;
+    const ID = wedo.id;
+    const title = wedo.title;
+    const completed = wedo.completed;
 
     logTodo(ID, title, completed)
 })
