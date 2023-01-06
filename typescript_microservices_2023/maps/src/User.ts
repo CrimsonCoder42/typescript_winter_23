@@ -1,4 +1,4 @@
-import faker from '@faker-js/faker';
+import  faker  from '@faker-js/faker';
 
 export class User {
   name: string;
@@ -8,7 +8,7 @@ export class User {
   };
 
   constructor() {
-    this.name = faker.image.avatar()
+    this.name = faker.animal.cat()
     this.location = {
       lat: parseFloat(faker.address.latitude()),
       lng: parseFloat(faker.address.longitude())
