@@ -1,5 +1,15 @@
 {
-  "devDependencies": {
-    "@faker-js/faker": "^7.6.0"
+  "name": "maps",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/faker": "^5.5.7",
+    "faker": "^5.5.3"
   }
 }
